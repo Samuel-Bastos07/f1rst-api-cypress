@@ -1,0 +1,13 @@
+{
+  "name": "f1rst-api-cypress",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "test": "cypress run",
+    "test:report": "cypress run && start cypress\\reports\\relatorio.html"
+  },
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
